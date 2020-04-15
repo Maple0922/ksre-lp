@@ -5,7 +5,7 @@
 
 html {
   color: #111;
-  background: #fcfcfc;
+  background: #f9f9f9;
   font-size: 62.5%; }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
@@ -54,7 +54,7 @@ html, body {
   width: 100%;
   padding: 0 10px;
   background: transparent;
-  color: #fcfcfc;
+  color: #f9f9f9;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -69,7 +69,7 @@ html, body {
       letter-spacing: 0.3rem;
       padding-top: 10px;
       margin-bottom: 2px;
-      margin-left: 2px; }
+      margin-left: 3px; }
     .header__left .sub-title {
       font-size: 1.1rem; }
 
@@ -85,7 +85,7 @@ html, body {
     display: block;
     width: 24px;
     height: 2px;
-    background: #fcfcfc;
+    background: #f9f9f9;
     margin: 6px auto;
     transition: 0.2s ease-out; }
   .hamburger--active .first {
@@ -104,7 +104,7 @@ html, body {
   bottom: 0;
   background: #111111f3;
   z-index: 3000;
-  color: #fcfcfc;
+  color: #f9f9f9;
   padding: 90px 0; }
   .hamburger-menu .menu {
     width: 240px;
@@ -135,14 +135,14 @@ html, body {
     .hamburger-menu .sns .youtube {
       width: 30px;
       height: 30px; }
-      .hamburger-menu .sns .twitter svg,
-      .hamburger-menu .sns .instagram svg,
-      .hamburger-menu .sns .youtube svg {
+      .hamburger-menu .sns .twitter img,
+      .hamburger-menu .sns .instagram img,
+      .hamburger-menu .sns .youtube img {
         height: 30px; }
 
 .main {
   width: 100%;
-  color: #fcfcfc;
+  color: #f9f9f9;
   background: #111;
   font-size: 1.2rem; }
   .main > div {
